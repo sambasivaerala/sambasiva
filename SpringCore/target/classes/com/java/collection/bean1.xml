@@ -1,0 +1,28 @@
+<beans>
+<bean name = "collectionlist" class="com.springcoreC2.Collection2">
+     <property name="QuestionId">
+     <set>
+                <value>1</value>
+               
+     </set>
+     </property>
+     
+     <property name="Questions">
+     <map>
+<entry key="question on java"  value="What is OOP?"/>
+             
+     
+     </map>
+     </property>
+     
+     <property name="Answers">
+         <list>
+         <value>OOP stands for Object-Oriented Programming.Procedural programming is about writing procedures or methods that perform operations on the data, while object-oriented programming is about creating objects that contain both data and methods.</value>
+                 </list>     
+     </property>
+     
+     </bean>
+     
+     
+     
+    </beans>

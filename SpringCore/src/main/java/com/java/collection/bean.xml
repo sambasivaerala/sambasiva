@@ -1,0 +1,30 @@
+
+<beans>
+<bean name = "collectionmap" class="com.springcore2.Collection">
+     <property name="QuestionId">
+     <list>
+                <value>1</value>
+               
+     </list>
+     </property>
+     
+     <property name="Questions">
+     <set>
+           <value>Why to use Java collection? </value>
+          
+     
+     </set>
+     </property>
+     
+     <property name="Answers">
+         <map>
+            <entry key="1"  value="Reducing the effort required to write the code by providing useful data structures and algorithms"/>
+             <entry  key="2" value="Java collections provide high-performance and high-quality data structures and algorithms thereby increasing the speed and quality"/>       
+         </map>     
+     </property>
+     
+     </bean>
+     
+     
+     
+    </beans>
